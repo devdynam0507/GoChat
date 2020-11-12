@@ -1,11 +1,10 @@
 package main
 
 import (
+	"chat/tcpip"
 	"fmt"
 	"log"
 	"os"
-
-	"./tcpip"
 )
 
 func HandleArgs() {

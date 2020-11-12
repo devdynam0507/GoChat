@@ -46,7 +46,7 @@ func Read() {
 
 		if count > 0 {
 			data := buf[:count]
-			fmt.Println("message>" + string(data))
+			fmt.Println("message> " + string(data))
 		}
 	}
 }
